@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parametrized test Suite" verbose="1">
+    <test name="Parametrized Test">
+        <parameter name="firstName" value="Fernan" />
+        <parameter name="lastName" value="Araujo" />
+        <parameter name="emailAddress" value="fernan.araujo.quintana@gmail.com" />
+        <parameter name="password" value="Anay90111329711" />
+        <parameter name="confirmPassword" value="Anay90111329711" />
+        <classes>
+            <class name="scripts.ClasePrincipal"/>
+        </classes>
+    </test>
+</suite>
